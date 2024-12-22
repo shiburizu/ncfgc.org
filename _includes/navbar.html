@@ -1,0 +1,36 @@
+<nav class="navbar is-fixed-top" role="navigation" aria-label="main navigation">
+    <div class="navbar-brand">
+      <a class="navbar-item" href="/">
+        <strong>NC FGC</strong>
+      </a>
+  
+      <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="sitenavbar">
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+      </a>
+    </div>
+  
+    <div class="navbar-menu" id="sitenavbar">
+        <div class="navbar-start">
+        </div>
+        <div class="navbar-end">
+            {% for p in site.nav %}
+            <a class="navbar-item" href="{{ p.url | relative_url }}">
+                {{ p.title }}
+            </a>
+            {% endfor %}
+            <div class="navbar-item">
+                <div class="buttons">
+                    <a href="/calendar" class="button is-primary">
+                        <strong>Calendar</strong>
+                    </a>
+                    <a href="https://discord.com/invite/w6M5EDYshF" class="button is-light">
+                        <Strong>Discord</Strong>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</nav>

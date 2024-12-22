@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html class="has-navbar-fixed-top">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{{ page.title }}</title>
+    <link rel="stylesheet" href="/styles.css">
+    <script src="/scripts.js"></script> 
+  </head>
+  <body>
+  {% include navbar.html %}
+  <section class="hero is-medium is-link nc-hero">
+    <div class="hero-body">
+      <p class="title">Welcome to the North Carolina Fighting Game Community</p>
+    </div>
+  </section>
+  <section class="section">
+    <div class="container">
+      <h1 class="title">
+        {{ page.title }}
+      </h1>
+      <div class="content">
+        {{ page.content }}
+      </div>
+    </div>
+  </section>
+  {% include regions.html %}
+  {% include calendar.html %}
+  {% include footer.html %}
+  </body>
+</html>
