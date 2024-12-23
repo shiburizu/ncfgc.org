@@ -7,28 +7,59 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-}
-.column.charlotte {
-    background-image: url(/img/regions/charlotte.png);
-}
-.column.fayetteville {
-    background-image: url(/img/regions/fayetteville.png);
-}
-.column.greenville {
-    background-image: url(/img/regions/greenville.png);
-}
-.column.triad {
-    background-image: url(/img/regions/triad.png);
-}
-.column.triangle {
-    background-image: url(/img/regions/triangle.png);
-}
-.column.wilmington {
-    background-image: url(/img/regions/wilmington.png);
+    
+    &.charlotte {
+        background-image: url(/img/regions/charlotte.png);
+    }
+    &.fayetteville {
+        background-image: url(/img/regions/fayetteville.png);
+    }
+    &.greenville {
+        background-image: url(/img/regions/greenville.png);
+    }
+    &.triad {
+        background-image: url(/img/regions/triad.png);
+    }
+    &.triangle {
+        background-image: url(/img/regions/triangle.png);
+    }
+    &.wilmington {
+        background-image: url(/img/regions/wilmington.png);
+    }
 }
 
 .nc-hero {
     background-image: url(/img/banner.png);
     background-size: cover;
     background-position: center;
+}
+
+.local-10ff {
+    background-image: url(/img/10ff/10ff_bg.webp);
+    background-size: cover;
+    background-position: center;
+    border-top: 4px solid black;
+}
+.local-ifm {
+    background-image: url(/img/ifm/ifm_bg.webp);
+    background-size: cover;
+    background-position: center;
+    border-top: 4px solid black;
+    min-height: 100vh;
+}
+.local-ifm-outline {
+    border: 3px solid #F8B800;
+}
+.local-ifm-text {
+    color: #F8B800 !important;
+}
+.local-wt {
+    background-image: url(/img/wt/wt_bg.png);
+    background-size: cover;
+    background-position: center;
+    border-top: 4px solid black;
+    min-height: 100vh;
+}
+.drop-shadow-black {
+    filter: drop-shadow(5px 5px 10px #000000);
 }
