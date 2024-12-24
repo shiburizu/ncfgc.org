@@ -45,7 +45,6 @@
     background-size: cover;
     background-position: center;
     border-top: 4px solid black;
-    min-height: 100vh;
 }
 .local-ifm-outline {
     border: 3px solid #F8B800;
@@ -58,7 +57,6 @@
     background-size: cover;
     background-position: center;
     border-top: 4px solid black;
-    min-height: 100vh;
 }
 .drop-shadow-black {
     filter: drop-shadow(5px 5px 10px #000000);
