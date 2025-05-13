@@ -21,7 +21,7 @@
 title: North Carolina Fighting Game Community
 email: shiburizu312@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  The community-run homepage of the North Carolina Fighting Game Community. Find out about upcoming events and sign up for tournaments here! Connect with our vibrant community by finding your locals.
+  The community-run homepage of the North Carolina Fighting Game Community. Find your locals and connect with your next challengers here!
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
