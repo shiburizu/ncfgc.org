@@ -4,8 +4,13 @@
   <body>
   {% include navbar.html %}
   <section class="hero is-medium is-link nc-hero">
-    <div class="hero-body">
+    <div class="hero-body has-text-centered">
       <p class="title">Welcome to the North Carolina Fighting Game Community</p>
+      <div class="buttons is-centered">
+        <a href="#locals" class="button is-primary"><b>Find Your Locals</b></a>
+        <a href="#calendar" class="button">Calendar</a>
+        <a href="/discords" class="button">Discords</a>
+      </div>
     </div>
   </section>
   <section class="section">
@@ -20,7 +25,7 @@
   </section>
   {% include regions.html %}
   {% include calendar.html %}
-  {% include front_regions.html %}
+  {% include locals.html %}
   {% include socials_cta.html %}
   {% include footer.html %}
   </body>

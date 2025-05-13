@@ -44,3 +44,11 @@
     filter:invert(100%) hue-rotate(180deg);
     border-radius: 8px;
 }
+
+[id]::before {
+  content: '';
+  display: block;
+  height:      75px;
+  margin-top: -75px;
+  visibility: hidden;
+}

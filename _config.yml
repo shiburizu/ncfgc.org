@@ -68,4 +68,14 @@ nav:
     url: /#triangle
   - title: Wilmington
     url: /#wilmington
-  
+  - title: Discords
+    url: /discords
+
+defaults:
+-
+  scope:
+    path: ""
+    type: "pages"
+  values:
+    layout: "default"
+    permalink: /:basename
