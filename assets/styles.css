@@ -33,71 +33,14 @@
     background-position: center;
     background-image: linear-gradient(135deg, rgba(26,133,16,1) 0%, rgba(44,48,138,1) 100%), url(/img/banner.png);
 }
-.triad-hero {
-    background-size: cover,cover;
-    background-position: center,center;
-    background-blend-mode: multiply, normal;
-    background-image: linear-gradient(135deg, rgba(26,133,16,1) 0%, rgba(44,48,138,1) 100%), url(/img/triad_banner.jpg);
+
+.locals-grid .cell {
+    border-radius: 8px;
+    border: 2px solid hsl(221,14%,14%);
+    margin-bottom: 0px !important;
 }
-.triangle-hero {
-    background-size: cover,cover;
-    background-position: center,center;
-    background-blend-mode: multiply, normal;
-    background-image: linear-gradient(135deg, rgba(26,133,16,1) 0%, rgba(44,48,138,1) 100%), url(/img/triangle_banner.jpg);
-}
-.local-10ff {
-    background-image: url(/img/10ff/10ff_bg.webp);
-    background-size: cover;
-    background-position: center;
-    border-top: 4px solid black;
-}
-.local-ifm {
-    background-image: url(/img/ifm/ifm_bg.webp);
-    background-size: cover;
-    background-position: center;
-    border-top: 4px solid black;
-    min-height: 100vh;
-}
-.local-ifm-outline {
-    border: 3px solid #F8B800;
-}
-.local-ifm-text {
-    color: #F8B800 !important;
-}
-.local-wt {
-    background-image: url(/img/wt/wt_bg.png);
-    background-size: cover;
-    background-position: center;
-    border-top: 4px solid black;
-    min-height: 100vh;
-}
-.local-tot {
-    background-image: linear-gradient(rgb(78,239,255),rgb(78,239,255)), url(/img/tot/tot_bg.png);
-    background-blend-mode: hue,normal;
-    background-size: cover;
-    background-position: center;
-    border-top: 4px solid black;
-    min-height: 100vh;
-}
-.drop-shadow-black {
-    filter: drop-shadow(5px 5px 10px #000000);
-}
-.drop-shadow-white {
-    filter: drop-shadow(0px 5px 20px white);
-}
-.local-logo {
-    display: flex;
-    justify-content: center;
-}
-@media screen {
-    @media (min-width: 960px) {
-        .local-logo > img {
-            max-width: 500px;
-        }
-    }
-    @media (max-width: 960px) {
-        .local-logo > img {
-            max-width: 70vw;
-        }
-    }
+
+#calendar iframe {
+    filter:invert(100%) hue-rotate(180deg);
+    border-radius: 8px;
 }

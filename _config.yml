@@ -57,15 +57,15 @@ exclude:
 # navbar configuration
 nav:
   - title: Charlotte
-    url: /charlotte
+    url: /#charlotte
   - title: Fayetteville
-    url: /fayetteville
+    url: /#fayetteville
   - title: Greenville
-    url: /greenville
+    url: /#greenville
   - title: Triad
-    url: /triad
+    url: /#triad
   - title: Triangle
-    url: /triangle
+    url: /#triangle
   - title: Wilmington
-    url: /wilmington
+    url: /#wilmington
   
