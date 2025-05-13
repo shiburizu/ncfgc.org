@@ -9,22 +9,22 @@
     justify-content: center;
     
     &.charlotte {
-        background-image: url(/img/regions/charlotte.png);
+        background-image: url(/img/regions/charlotte.jpg);
     }
     &.fayetteville {
-        background-image: url(/img/regions/fayetteville.png);
+        background-image: url(/img/regions/fayetteville.jpg);
     }
     &.greenville {
-        background-image: url(/img/regions/greenville.png);
+        background-image: url(/img/regions/greenville.jpg);
     }
     &.triad {
-        background-image: url(/img/regions/triad.png);
+        background-image: url(/img/regions/triad.jpg);
     }
     &.triangle {
-        background-image: url(/img/regions/triangle.png);
+        background-image: url(/img/regions/triangle.jpg);
     }
     &.wilmington {
-        background-image: url(/img/regions/wilmington.png);
+        background-image: url(/img/regions/wilmington.jpg);
     }
 }
 
