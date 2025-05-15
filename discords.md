@@ -9,6 +9,7 @@ title: NC FGC Discord Directory
 ## Regional Servers
 ### Charlotte
 - [Last Level](https://discord.gg/yUD3cu2) - Charlotte-centric FGC server.
+- [Niner Esports](https://discord.nineresports.org/) - UNCC Esports Club, featuring fighting games.
 
 ### Fayetteville
 - [Fay VG](https://discord.com/invite/N7aFmdcwyq) - Fayetteville FGC server.
