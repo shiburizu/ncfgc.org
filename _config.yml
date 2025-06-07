@@ -70,7 +70,8 @@ nav:
     url: /#wilmington
   - title: Discords
     url: /discords
-
+  - title: Players
+    url: /players
 defaults:
 -
   scope:
