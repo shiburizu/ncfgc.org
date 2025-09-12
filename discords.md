@@ -3,7 +3,7 @@ title: NC FGC Discord Directory
 ---
 ## General purpose
 - **[NC FGC Discord](https://discord.gg/w6M5EDYshF) - The place to be to find out about NC FGC events. Weekly lobby nights for various games.**
-- [Frogcord](https://discord.gg/FFJpm8FcHp) - Alternative server mostly run by the NC Strive community. Hosts Gundam VS and some other niche titles.
+- [Frogcord](https://discord.gg/tzjRzhrCu3) - Alternative server mostly run by the NC Strive community. Hosts Gundam VS and some other niche titles.
 - [NC Retro](https://discord.gg/NPZzCMxsHa) - 3rd Strike & misc. retro game resource server for NC and Southeast in general.
 
 ## Regional Servers
